@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-4">
       <h1 className="text-2xl font-bold mb-4">Button Component Demo</h1>
-      <div className="space-x-8 mb-4"> {/* Increased spacing to space-x-8 */}
+      <div className="flex flex-col space-y-6 mb-4"> {/* Adjusted to space-y-6 */}
         <Button variant="primary" onClick={handleClick}>
           CREATE NEW COIN
         </Button>
